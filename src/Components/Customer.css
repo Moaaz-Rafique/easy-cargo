@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+
+/* body{
+  background: #0f0c29;  
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+  
+} */
+
+.section-cust{
+   
+    margin-top: 120px;
+    padding: 20px;
+}
+
+
+
+.register-m{
+  margin: 0 0 20px 300px;
+  max-width: 978px;
+  display:flex;
+  border: 2px solid #15293d;
+  border-radius: 30px;
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+  background-color: white;
+}
+
+.col-1 span{
+  color: #15293d;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  
+}
+
+
+
+#form-cust{
+  max-width: 320px;
+  width: 100vw;
+  margin: 2em auto;
+}
+
+#form-cust >  input{
+  border: 1px solid #e9ecef;
+  padding: .9em 1em;
+}
+
+
+
+.btn-cust{
+  margin-left: 20%;
+  padding: .9em 1em;
+  background-color: #003049;
+  color: #e9ecef;
+  font-size: 1em;
+  cursor: pointer;
+  border: 0.5px #022f47f0;
+  border-radius: 5px;
+}
+
+.btn-cust:hover{
+  box-shadow: 0 5px 5px 0 #053651,0 5px 5px 0 #053651;
+  border: 1px solid #003049;
+  background-color: #e9ecef ;
+  color:#003049;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.register-m .colc-1{
+  border: 1px #0f0c29;
+ 
+  margin:  50px 100px;
+  padding: 3em 0;
+}
+
+
+.input-block {
+  
+  padding: .9em 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 3px 2px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 15px 15px;
+    transition: 0.3s;
+    font-size: small;
+    height: 80px;
+    width: 220px;
+  }
+
+  .input-label:hover{
+
+    font-weight: bold;
+    font-size: medium;
+  }
+  .register-m .colc-2 img{
+    width: 530px;
+    height: 100%;
+    object-fit: inherit;
+    align-self: flex-end;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 20px;
+    display: initial;
+    
+  }
+   .input-label{
+    padding: 2px 5px;
+    margin: 5px 0;
+   }
+   .form-error{
+    font-size: small;
+    color: red;
+    text-shadow: 0.5px 0.5px #0f0c29;
+  }
+  
+
+  

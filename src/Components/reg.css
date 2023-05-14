@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+
+/* body{
+  background: #0f0c29;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #24243e, #302b63, #0f0c29); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  
+/* } */ 
+/* .App1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
+
+.reg{
+  width:550px;
+  height: 550px;
+  margin:0 0 0 500px;
+  display:flex;
+  border: 1px solid #e9ecef;
+  border-radius: 20px;
+  
+  background-image:  url('../assets/mainimg.jpg');
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+ /*background-color: #0f0c29;*/ 
+  
+}
+
+.col-01 > h2
+{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:  #0f0c29;
+  margin:10px;
+}
+
+.col-01 > span
+{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:  #0f0c29;
+  margin: 10px;
+
+}
+
+.Col-01 span{
+  color: #adb5bd;
+}
+
+#form-login{
+  max-width: 320px;
+  width: 100vw;
+  margin: 10px;
+  }
+
+#form-login >  input{
+  width: 300px;
+  height :20px;
+  border: 1px solid #e9ecef;
+  padding: .9em 1em;
+  margin: 15px 0;
+}
+
+.sect1{
+ margin-top: 100px;
+  padding: 20px;
+}
+
+#form-login > input:hover{
+  background-color: #0f0c29;
+  color: #adb5bd;
+}
+
+#form-login > input:focus{
+  outline: none;
+}
+
+.form-error{
+  font-size: small;
+  color: red;
+  text-shadow: 0.5px 0.5px #0f0c29;
+}
+
+#form-login > .btn-b{
+  width: 150px;
+  height :30px;
+ border: none;
+  padding: 1em;
+  margin-left: 70px;
+  padding-bottom: 30px;
+  background-color: #003049;
+  box-shadow: 0 1px 1px 0 black, 0 1px 1px 0 black;
+  color: #e9ecef;
+  font-size: 0.7em;
+  cursor: pointer;
+  text-align: center;
+  transition-duration: 0.4s;
+ }
+
+  #form-login >.btn-b:hover{
+  box-shadow: 0 4px 4px 0 #003049,0 5px 5px 0 #003049;
+  border: 1px solid silver;
+  
+}
+
+#form-login >.flex1{
+  display: flex;
+  gap: 1em;
+}
+
+#form-login >.flex1-col{
+  flex-direction: column;
+}
+
+.reg .col-01{
+  margin: auto;
+  
+}
+
+
+
+@media screen and (min-width: 860px)  {
+  .reg .col-2 img{
+    display: initial;
+  }
+}

@@ -1,0 +1,51 @@
+/* .about-container{
+    background-color: #363333;
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .about{
+    display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+    background-image: url('../../assets/aboutsus.png');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+} */
+
+/* .parent-container{
+    background-color: brown;
+    background-position: center;
+    background-size: fill;
+    background-repeat: repeat;
+} */
+.about{
+    padding-top: 55px;
+    color: white;
+    font-size: 3rem;
+
+}
+
+.imgg{
+    padding-top: 90px;
+    height: 50px;
+    width: 50px;
+    margin-right: 50%;
+    margin-left: 3%;
+}
+
+.para p { 
+    padding-top:90px ;
+    color: #fff;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 3%;
+}
