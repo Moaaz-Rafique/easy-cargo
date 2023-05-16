@@ -6,8 +6,8 @@ import * as THREE from "three";
 function ContainerModel(props) {
   // This reference gives us direct access to the THREE.Mesh object
   const containerRef = useRef();
-  const [contPos, setContPos] = useState([25, 6, 10]);
-  const [contSize, setContSize] = useState([60, 35, 42.5]);
+  const [contPos, setContPos] = useState([30, -6, 10]);
+  const [contSize, setContSize] = useState([60, 35, 30]);
 
   useControls("Container", {
     visible: {

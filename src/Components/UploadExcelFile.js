@@ -193,6 +193,7 @@ function UploadExcelFile() {
                 rotation={rotationfromOrientationNumber(
                   e["Box Orientation in Block_Strategy"]
                 )}
+                type = {e['Box Type']}
               />
             ))}
             <ContainerModel position={[25, 15, 10]} opacity={1} />
